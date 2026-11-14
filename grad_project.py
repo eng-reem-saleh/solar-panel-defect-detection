@@ -26,7 +26,7 @@ print('Data source import complete.')
 
 from roboflow import Roboflow
 
-rf = Roboflow(api_key="x19TylcRGNSRhd1GEwbe")
+rf = Roboflow(api_key="")
 
 project = rf.workspace("solar-panel-detection-pz2ap").project("crack-solar-panel")
 dataset = project.version(1).download("yolov8")
