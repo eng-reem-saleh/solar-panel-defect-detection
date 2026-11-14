@@ -56,7 +56,7 @@ import shutil
 # DOWNLOAD DATASET 2 AGAIN
 # ============================================================
 
-rf = Roboflow(api_key="x19TylcRGNSRhd1GEwbe")
+rf = Roboflow(api_key="")
 
 project2 = rf.workspace(
     "solarvision-gwljt"
